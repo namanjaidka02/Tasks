@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: grid;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text{
+    border: 2px black solid;
+    text-align: center;
+    margin: 20px 20px;
+    padding-left: 20px;
+    list-style: inside;
+}
+
+.list1{
+    padding-bottom: 10px;   
+}
+
+.points{
+    list-style:decimal;
+    line-height: 25px;
+    padding-left: 5px;
+}
