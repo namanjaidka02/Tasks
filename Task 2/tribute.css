@@ -18,7 +18,24 @@
     margin: 20px 20px;
     padding-left: 20px;
     list-style: inside;
+    font-size: 25px;
+   line-height: 35px;
 }
+
+.animation{
+animation:myScroll;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+list-style:none ;
+font-weight: bold;
+}
+
+@keyframes myScroll{
+    from{margin-left:70%;}
+    to{margin-right: 70%;}
+}
+
+
 
 .list1{
     padding-bottom: 10px;   
@@ -26,6 +43,8 @@
 
 .points{
     list-style:decimal;
-    line-height: 25px;
-    padding-left: 5px;
+    padding-left: 20px;
+   
 }
+
+
