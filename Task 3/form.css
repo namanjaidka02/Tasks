@@ -6,14 +6,14 @@ body{
 
 .container{
     border: 2px solid black;
-    max-width:80%;
+    max-width:70%;
     height: 275px;
-    margin: 275px 170px;
+    margin: 275px 170px 170px 275px ;
     padding: 10px 25px;
    
 }
 .input-container{
-    padding:10px 15px;   
+    padding: 10px 0 10px 0;   
 }
 
 .input-container1{
@@ -31,7 +31,7 @@ body{
 
 
 #myBtn{
-    width: 100%;
+    min-width: 100%;
     height:45px;
     padding: 0 10px 0 10px;
     font-size: 20px;
