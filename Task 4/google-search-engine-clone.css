@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right:10px ;
+}
+
+ul a{
+    padding:0 20px;
+}
+
+ul img{
+    padding: 0 15px;
+}
+
+.header-img:hover{
+    box-shadow: 0 0 10px 0 gainsboro; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+
+h1{
+    font-family:'Segoe UI';
+    font-size: 80px;
+    
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+.input-container input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+img:hover{
+    cursor: pointer;
+
+}
+
+.button-container{
+    padding-top: 53px;
+}
+
+button{
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px gainsboro;
+}
+
+footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+#footer-left{
+display: flex;
+justify-self: start;    
+padding-left: 40px;
+align-items: center;
+
+}
+#footer-right{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 20px;
+   align-items: center;
+}
