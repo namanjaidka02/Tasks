@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     font-size: 0.9em;
+    max-width: 100%;
 }
 a{
     margin: 5px;
@@ -83,14 +84,15 @@ footer{
    width: 100%;
 }
 
-.upper-footer{
+p{
     font-size: 20px;
     padding-left: 80px;
 }
-.lower-footer{
+footer ul{
     font-size: 18px;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    max-width: 100%;
 }
 
 .user-icon{
