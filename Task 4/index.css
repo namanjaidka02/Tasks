@@ -1,8 +1,6 @@
 body{
-    margin: 0;
+    margin:0;
     font-family: Arial, sans-serif;
-    font-size: 0.9em;
-    max-width: 100%;
 }
 a{
     margin: 5px;
@@ -23,6 +21,7 @@ a:hover{
 }
 .navbar ul{
     padding: 15px 25px;
+    font-size: 18px;
     
 }
 ul a{
@@ -69,6 +68,7 @@ button{
     height: 40px;
     padding: 0 30px;
     margin: 0 20px;
+    font-size: 18px;
 }
 
 button:hover{
