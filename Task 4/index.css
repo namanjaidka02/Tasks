@@ -1,11 +1,41 @@
-body{
-    margin:0;
+/*
+change class names 
+add footer bottom bottom
+change button class and add transition property.
+
+.btn{
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    height: 40px;
+    padding: 0 30px;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: border 0.2s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border:2px solid gainsboro;
+   
+}
+
+
+*/
+
+
+*{
+    font-size: 13px; 
     font-family: Arial, sans-serif;
 }
-a{
-    margin: 5px;
+
+
+
+
+.header-nav{  
     text-decoration: none;
     color: black;
+    padding: 0 20px;
 }
 li{
     list-style: none;
@@ -17,16 +47,14 @@ a:hover{
 .navbar{
     display: flex;
     justify-content: right;
-    font-size: 16px;
+    
 }
 .navbar ul{
-    padding: 15px 25px;
+    padding: 10px 20px;
     font-size: 18px;
     
 }
-ul a{
-    padding: 0 15px;
-}
+
  
 body img{
     cursor: pointer;
@@ -36,18 +64,22 @@ body img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:80px;
+    margin-top:52px;
+}
+
+.logo-img{
+    width: 280px;
 }
 
 .input-container{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 47%;
     height: 40px;
     border: 1px solid gainsboro;
     border-radius:30px ;
 }
-.input-container input{
+.google-input{
     flex-grow:1 ;
     border: none;
     outline: none;
@@ -61,14 +93,15 @@ body img{
     padding-top: 55px;
 }
 
-button{
+.btn{
     background-color: #F8F9FA;
     border-radius: 5px;
-    border: none;
+    border: 2px solid transparent;
     height: 40px;
     padding: 0 30px;
     margin: 0 20px;
-    font-size: 18px;
+    font-size: 14px;
+    transition: border 0.7s;
 }
 
 button:hover{
@@ -79,27 +112,56 @@ button:hover{
 
 footer{
    background-color:#f2f2f2;
-   position: fixed;
+   position:fixed;
    bottom: 0;
    width: 100%;
 }
 
 p{
-    font-size: 20px;
-    padding-left: 80px;
+    font-size: 17px;
+    color: gray;
+    
 }
-footer ul{
+.lower-footer{
     font-size: 18px;
     display: flex;
     justify-content: space-between;
     max-width: 100%;
+    
 }
 
 .user-icon{
+    text-decoration: none;
+    color: black;
     border: 1px solid blue;
-    width: 30px;
+    width: 50px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 100px;
     text-align: center;
     line-height: 30px;
+    padding: 10px;
+}
+
+.mag-glass{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.mic{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+
+.footer-nav{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    padding: 0 8px;
+}
+
+.upper-footer{
+    margin-bottom: 20px;
+    border-bottom:1px solid lightgray ;
 }
