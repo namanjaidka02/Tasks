@@ -1,0 +1,116 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: red;
+    font-size: 70px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.menu{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.menu-bar{
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}   
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 50px;
+
+
+}
+
+.product-img {
+    width: 250px;
+    height: 200px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+
+
+@media (max-width: 480px) {
+    .meal-div {
+      flex-direction: column;
+    }
+    
+  }
+  
+  @media (max-width: 960px) {
+   
+    .name {
+        font-size: 24px;
+    }
+  }
+  

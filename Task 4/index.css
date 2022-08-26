@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    font-size: 16px;
+}
+.navbar ul{
+    padding: 15px 25px;
+    font-size: 18px;
+    
+}
+ul a{
+    padding: 0 15px;
+}
+ 
+body img{
+    cursor: pointer;
+}
+
+.google-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius:30px ;
+}
+.input-container input{
+    flex-grow:1 ;
+    border: none;
+    outline: none;
+}
+.input-container a{
+    display: flex;
+    align-items: center;
+}
+
+.button-container{
+    padding-top: 55px;
+}
+
+button{
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    padding: 0 30px;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+    border:2px solid gainsboro;
+    box-shadow:  0 0 10px gainsboro;
+}
+
+footer{
+   background-color:#f2f2f2;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+p{
+    font-size: 20px;
+    padding-left: 80px;
+}
+footer ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.user-icon{
+    border: 1px solid blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
