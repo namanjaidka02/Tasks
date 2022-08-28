@@ -1,0 +1,143 @@
+header img{
+    width: 7%;
+   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header a{
+    text-decoration:none ;
+    color: gray;
+    padding: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicon';
+   font-weight: 495;
+}
+
+.header a:hover{
+    color: #24D692;
+    text-decoration: underline;
+}
+
+
+.img-container{
+    margin-top: 100px ;
+    width: 100%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+
+.section-1{
+    font-family: 'Avenir Light', sans-serif;
+    padding: 4rem 0rem 0 3rem; 
+    display: grid;
+    grid-template-columns:30% 30% 30% ;
+    width: 100%;
+    column-gap: 10px;
+    line-height: 1rem;
+   
+
+}
+
+.section-1 h1{
+    font-size: 5.5rem;
+    text-align: center;
+    line-height: 4.5rem;
+    padding-top: 1;
+    font-family: 'Freestyle Script',sans-serif
+}
+
+
+.column img{
+    width: 80%;
+}
+
+
+.number{
+font-size: 4.5rem;
+color: #24D692;
+padding-top: 1;
+}
+
+
+
+.text{
+   color: grey;
+   margin-bottom: 1px;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+   
+}
+strong{
+    color: black;
+    font-weight: lighter;
+}
+
+.right{
+    text-align: right;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.section-2{
+    margin-top: 8rem;
+   text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+}
+
+.section-2 img{
+   
+    width:50%;
+}
+
+.why{
+    text-align: center;
+    font-family: Roboto Slab;
+    font-weight: 100;
+    color:#3d3d3d ;
+    padding-top:7rem;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.section-3 img{
+    width: 50%;
+}
+
+.bullets{
+    font-size: 4rem;
+    color: #24D692;
+}
+
+.content{
+    font-size: 1.6rem;
+    color: grey;   
+}
+
+.img-container2{
+    width: 100%;
+}
+
+.img-container2 img{
+    width: 100%;
+}
+
+.section-4 h2{
+    text-align: center;
+}
