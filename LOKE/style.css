@@ -1,9 +1,5 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
 header img{
+    margin-left: 0.5rem;
     width: 7%;
    
 }
@@ -12,7 +8,11 @@ header img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    position: fixed;
+    top: 0px;
+    background-color: #fff;
+    width: 100%;
+    padding: 2rem 0rem;
 }
 
 header a{
@@ -30,7 +30,7 @@ header a{
 
 
 .img-container{
-    margin-top: 100px ;
+    margin-top: 10rem ;
     width: 100%;
 }
 
@@ -44,7 +44,6 @@ header a{
     padding: 4rem 0rem 0 3rem; 
     display: grid;
     grid-template-columns:30% 30% 30% ;
-    width: 100%;
     column-gap: 10px;
     line-height: 1rem;
    
@@ -52,23 +51,22 @@ header a{
 }
 
 .section-1 h1{
-    font-size: 5.5rem;
+    font-size: 3rem;
     text-align: center;
     line-height: 4.5rem;
-    padding-top: 1;
     font-family: 'Freestyle Script',sans-serif
 }
 
 
 .column img{
-    width: 80%;
+    width: 90%;
 }
 
 
 .number{
 font-size: 4.5rem;
 color: #24D692;
-padding-top: 1;
+padding-top: 1rem;
 }
 
 
@@ -92,7 +90,7 @@ strong{
 }
 
 .section-2{
-    margin-top: 8rem;
+    margin-top: 5rem;
    text-align: center;
     display: flex;
     justify-content: center;
@@ -106,12 +104,22 @@ strong{
     width:50%;
 }
 
+.p1{
+    font: 4rem;
+}
+
+.p2{
+    font-size: 2rem;
+    color: rgb(61, 61, 61);
+}
+
 .why{
     text-align: center;
     font-family: Roboto Slab;
     font-weight: 100;
     color:#3d3d3d ;
     padding-top:7rem;
+    font-size: 3rem;
 }
 
 .section-3{
@@ -143,6 +151,170 @@ strong{
     width: 100%;
 }
 
-.section-4 h2{
+.center{
     text-align: center;
 }
+
+.section-4{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.section-4 p{
+    font-size: 2rem;
+}
+.section-4 img{
+    width: 100%;
+}
+
+.contact-us{
+    width: 100%;
+    margin-top: 8rem;
+    position: sticky;
+    font-size: 2rem;
+}
+
+.contact-us img{
+    width: 100%;
+}
+
+.chat{
+    position: absolute;
+    top:8rem;
+    left: 5rem;
+    text-align: center;
+    color: grey;
+}
+
+.mybtn{
+    background-color: #fff;
+    width: 40%;
+    height: 3rem;
+    cursor: pointer;
+    border: grey;
+    border-radius: 50px;
+}
+.mybtn:hover{
+    background-color: lightgray;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    margin-top: 5rem;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.footer-number{
+    color: #24D692;
+    text-decoration: none;
+}
+.link{
+    text-decoration:none ;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+text-decoration-color:#24D692;
+text-decoration-thickness:0.2rem ;
+}
+
+
+@media (max-width: 400px) and (max-height: 950px){
+    .header{
+        font-size: 5.5px;
+    }
+    .img-container{
+        margin-top: 1rem;
+    }
+    .section-1-heading{
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .number{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .column{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+    .p1{
+        font-size: 1.3rem;
+    }
+    .p2{
+        font-size: 1.1rem;
+    }
+    .why{
+        display: flex;
+        justify-content: center;
+        font-size: 1.7rem;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+    .content{
+        font-size: 1.2rem;
+    }
+    .bullets{
+        font-size: 1.5rem;
+    }
+    .section-4{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-4 p{
+        font-size: 1rem;
+    }
+    .section-4 img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .contact-us img{
+        width: 100%;
+    }
+    .chat{
+        top: 0.5rem;
+        left: 1rem;
+        text-align: left;
+        font-size: 1rem;
+    }
+    .mybtn{
+        font-size: 0.6rem;
+    }
+    .footer-column{
+        padding-left: 0.5rem;
+        font-size: 0.6rem;
+    }
+    .footer-column-right{
+        padding-right: 0.7rem;
+    }
+}
+
