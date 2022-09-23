@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    font-family: "SF Pro Text", sans-serif;
+}
+@font-face {
+    font-family:'SF Pro Text';
+    src: url(font/SF-Pro.dmg);
+}
+header {
+    background-color: rgba(34, 34, 34, 0.81);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul a {
+    color: rgba(255, 255, 255, 0.855);
+    text-decoration: none;
+    padding-left: 3rem;
+    font-family: "SF Pro Text", sans-serif;
+}
+
+ul a:hover{
+    color: white;
+}
+
+.fa-brands{
+    font-size: 1.5rem;
+}
+
+.offer{
+   
+    text-align: center;
+    font-size:1.1rem ;
+    background-color: rgba(211, 211, 211, 0.273);
+    padding: 1.6rem;
+    margin: 0;
+
+}
+
+.learn-more1{
+    color:#06c;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.learn-more1:hover{
+    text-decoration: underline;
+}
+
+
+.buy{
+    color:#06c;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.buy:hover{
+    text-decoration: underline;
+}
+
+.text1{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 0.5rem;
+    padding-top: 1.5rem;
+    font-size:1.5rem ;
+}
+
+.link-in-first-img{
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    padding:1.5rem;
+}
+
+.link-in-first-img a {
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+}
+
+.iphone-14-pro-img{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  
+}
+
+.iphone-14-pro-img img{
+    width: 100%;
+}
+
+
+.text2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    line-height: 0.5rem;
+    padding-top: 1.5rem;
+    font-size:1.5rem;
+}
+
+.text2 span{
+    color: gray;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.link-in-second-img{
+    text-align: center;
+    padding:1.5rem;
+}
+
+.link-in-second-img a{
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+}
+
+.iphone-14-img{
+    width: 100%;
+}
+
+.iphone-14-img img{
+    width: 100%;
+}
+
+.text3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+.text3 h3{
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.text3 p{
+    color: red;
+    letter-spacing: 0.5rem;
+}
+
+.link-in-third-img{
+    text-align: center;
+    padding:1.5rem;
+    background-color: black;
+}
+
+.link-in-third-img a{
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+}
+
+
+.iwatch-img{
+   background-color: black;
+   display: flex;
+   justify-content: center;
+}
+
+.grid-container{
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr ;
+   margin-top: 10rem;
+}
+
+.grid-items img{
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.se-watch{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.se-watch span{
+    color: red;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.se-watch a{
+    font-size: 1.7rem ;
+    padding: 2rem;
+}
