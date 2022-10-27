@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   height: 60rem;
+  
+}
+
+#solution{
+    font-size: 4rem;
+    border: none;
+    text-align: center;
+}
+
+.calc{
+    border: 2px ridge black;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.btn{
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    transition: 500ms;
+    background-color: grey;
+}
